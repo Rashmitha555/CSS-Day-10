@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            margin: 24px;
+        }
+        img{
+            width: 100%;
+            vertical-align: top;
+        }
+        .text{
+            text-align: center;
+            text-align-last: center;
+        }
+        @media screen and (min-width : 600px) {
+
+         .container{
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            width: 100%;
+            gap: 10px;
+         }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="">
+            <div class="text">
+                <h2>The Perfect Sandwich, A Real NYC Classic</h2>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+    
+        <div class="item1">
+            <img src="https://www.w3schools.com/w3images/steak.jpg" alt="">
+            <div class="text">
+                <h2>The Perfect Sandwich, A Real NYC Classic</h2>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum. </p>
+            </div>
+        </div>
+
+        <div class="item1">
+            <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="">
+            <div class="text">
+                <h2>The Perfect Sandwich, A Real NYC Classic</h2>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+
+        <div class="item1">
+            <img src="https://www.w3schools.com/w3images/wine.jpg" alt="">
+            <div class="text">
+                <h2>The Perfect Sandwich, A Real NYC Classic</h2>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
